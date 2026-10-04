@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>لیست همکاران</title>
+<style>
+  :root { --bg:#eef2f6; --card:#fff; --txt:#1b2733; --mut:#6b7a89; --acc:#1f4e78; --line:#e3e8ee;
+          --yes:#2e9e5b; --no:#d64545; --track:#e3e8ee; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#10161c; --card:#1a232c; --txt:#eef2f6; --mut:#9aa8b6; --acc:#6fb1e8; --line:#2a3642; --track:#2a3642; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt);
+         font-family:Tahoma,"Segoe UI",Vazirmatn,Arial,sans-serif; padding:18px 12px 40px; }
+  h1.page { text-align:center; font-size:20px; margin:6px 0 18px; color:var(--acc); }
+  .card { max-width:440px; margin:0 auto 20px; background:var(--card); border-radius:18px;
+          overflow:hidden; box-shadow:0 6px 24px rgba(0,0,0,.12); }
+  .photo { text-align:center; padding:24px 0 6px; }
+  .photo img { width:150px; height:150px; object-fit:cover; border-radius:50%;
+               border:4px solid var(--acc); background:var(--line); }
+  h2 { text-align:center; font-size:21px; margin:10px 16px 16px; }
+  .row { display:flex; justify-content:space-between; gap:12px; padding:12px 20px;
+         border-top:1px solid var(--line); font-size:15px; }
+  .row span:first-child { color:var(--mut); white-space:nowrap; }
+  .row span:last-child { font-weight:bold; text-align:left; }
+  .poll { border-top:1px solid var(--line); padding:16px 20px 18px; background:rgba(127,127,127,.06); }
+  .q { text-align:center; font-size:15px; margin-bottom:12px; }
+  .btns { display:flex; gap:10px; }
+  .btns button { flex:1; padding:11px 0; font-size:16px; font-family:inherit; border-radius:10px;
+                 border:2px solid var(--line); background:var(--card); color:var(--txt); cursor:pointer; }
+  .btns button[data-c=yes].sel { background:var(--yes); border-color:var(--yes); color:#fff; }
+  .btns button[data-c=no].sel  { background:var(--no);  border-color:var(--no);  color:#fff; }
+  .btns button:disabled { opacity:.5; cursor:default; }
+  .bar { display:flex; height:12px; border-radius:6px; overflow:hidden; background:var(--track); margin:14px 0 8px; }
+  .by { background:var(--yes); width:0; transition:width .4s; }
+  .bn { background:var(--no);  width:0; transition:width .4s; }
+  .stats { display:flex; justify-content:space-between; font-size:14px; }
+  .stats .sy { color:var(--yes); font-weight:bold; }
+  .stats .sn { color:var(--no);  font-weight:bold; }
+  .nopoll .poll { display:none; }
+  .msg { text-align:center; font-size:12.5px; color:var(--mut); margin-top:8px; min-height:16px; }
+</style>
+</head>
+<body class="nopoll">
+<h1 class="page">لیست همکاران</h1>
+<div class="card">
+  <div class="photo"><img src="photos/4104db8b5dc7.jpg" loading="lazy" alt=""></div>
+  <h2>علی رضایی</h2>
+  <div class="row"><span>کد پرسنلی</span><span>1001</span></div>
+  <div class="row"><span>سمت</span><span>مدیر فروش</span></div>
+  <div class="row"><span>واحد</span><span>فروش</span></div>
+  <div class="poll" data-poll="4104db8b5dc7">
+    <div class="q">آیا از عملکرد ایشان راضی هستید؟</div>
+    <div class="btns"><button data-c="yes">بله</button><button data-c="no">خیر</button></div>
+    <div class="bar"><div class="by"></div><div class="bn"></div></div>
+    <div class="stats"><span class="sy"></span><span class="sn"></span></div>
+    <div class="msg"></div>
+  </div>
+</div>
+<div class="card">
+  <div class="photo"><img src="photos/663a49d7aff1.jpg" loading="lazy" alt=""></div>
+  <h2>مریم احمدی‌نژاد</h2>
+  <div class="row"><span>کد پرسنلی</span><span>1002</span></div>
+  <div class="row"><span>سمت</span><span>کارشناس منابع انسانی</span></div>
+  <div class="row"><span>واحد</span><span>اداری</span></div>
+  <div class="poll" data-poll="663a49d7aff1">
+    <div class="q">آیا از عملکرد ایشان راضی هستید؟</div>
+    <div class="btns"><button data-c="yes">بله</button><button data-c="no">خیر</button></div>
+    <div class="bar"><div class="by"></div><div class="bn"></div></div>
+    <div class="stats"><span class="sy"></span><span class="sn"></span></div>
+    <div class="msg"></div>
+  </div>
+</div>
+<div class="card">
+  <div class="photo"><img src="photos/ebc59518ddc8.jpg" loading="lazy" alt=""></div>
+  <h2>رضا کریمی</h2>
+  <div class="row"><span>کد پرسنلی</span><span>1003</span></div>
+  <div class="row"><span>سمت</span><span>مهندس نرم‌افزار</span></div>
+  <div class="row"><span>واحد</span><span>فناوری اطلاعات</span></div>
+  <div class="poll" data-poll="ebc59518ddc8">
+    <div class="q">آیا از عملکرد ایشان راضی هستید؟</div>
+    <div class="btns"><button data-c="yes">بله</button><button data-c="no">خیر</button></div>
+    <div class="bar"><div class="by"></div><div class="bn"></div></div>
+    <div class="stats"><span class="sy"></span><span class="sn"></span></div>
+    <div class="msg"></div>
+  </div>
+</div>
+<div class="card">
+  <div class="photo"><img src="photos/f5c2e20ff968.jpg" loading="lazy" alt=""></div>
+  <h2>سارا محمدی</h2>
+  <div class="row"><span>کد پرسنلی</span><span>1004</span></div>
+  <div class="row"><span>سمت</span><span>حسابدار</span></div>
+  <div class="row"><span>واحد</span><span>مالی</span></div>
+  <div class="poll" data-poll="f5c2e20ff968">
+    <div class="q">آیا از عملکرد ایشان راضی هستید؟</div>
+    <div class="btns"><button data-c="yes">بله</button><button data-c="no">خیر</button></div>
+    <div class="bar"><div class="by"></div><div class="bn"></div></div>
+    <div class="stats"><span class="sy"></span><span class="sn"></span></div>
+    <div class="msg"></div>
+  </div>
+</div>
+<div class="card">
+  <div class="photo"><img src="photos/a8155cb89136.jpg" loading="lazy" alt=""></div>
+  <h2>حسین نوری</h2>
+  <div class="row"><span>کد پرسنلی</span><span>1005</span></div>
+  <div class="row"><span>سمت</span><span>سرپرست انبار</span></div>
+  <div class="row"><span>واحد</span><span>لجستیک</span></div>
+  <div class="poll" data-poll="a8155cb89136">
+    <div class="q">آیا از عملکرد ایشان راضی هستید؟</div>
+    <div class="btns"><button data-c="yes">بله</button><button data-c="no">خیر</button></div>
+    <div class="bar"><div class="by"></div><div class="bn"></div></div>
+    <div class="stats"><span class="sy"></span><span class="sn"></span></div>
+    <div class="msg"></div>
+  </div>
+</div>
+<script>
+const API = "";
+const LABELS = { yes: "بله", no: "خیر" };
+const fa = n => Number(n).toLocaleString('fa-IR');
+let voter;
+try { voter = localStorage.getItem('voter'); if (!voter) { voter = crypto.randomUUID(); localStorage.setItem('voter', voter); } }
+catch (e) { voter = crypto.randomUUID(); }
+let mine = {};
+try { mine = JSON.parse(localStorage.getItem('mine') || '{}'); } catch (e) {}
+let data = {};
+let enabled = true;
+
+function render(pid) {
+  const el = document.querySelector('[data-poll="' + pid + '"]');
+  if (!el) return;
+  const d = data[pid] || { yes: 0, no: 0 };
+  const t = d.yes + d.no;
+  const yp = t ? Math.round(d.yes * 100 / t) : 0;
+  const np = t ? 100 - yp : 0;
+  el.querySelector('.by').style.width = yp + '%';
+  el.querySelector('.bn').style.width = np + '%';
+  el.querySelector('.sy').textContent = t ? LABELS.yes + ': ' + fa(yp) + '٪ (' + fa(d.yes) + ' نفر)' : '';
+  el.querySelector('.sn').textContent = t ? LABELS.no + ': ' + fa(np) + '٪ (' + fa(d.no) + ' نفر)' : '';
+  el.querySelectorAll('button').forEach(b => {
+    b.classList.toggle('sel', mine[pid] === b.dataset.c);
+    b.disabled = !enabled;
+  });
+  const msg = el.querySelector('.msg');
+  if (!enabled) msg.textContent = 'رأی‌گیری هنوز فعال نشده است.';
+  else if (!t) msg.textContent = 'هنوز رأیی ثبت نشده است.';
+  else if (mine[pid]) msg.textContent = 'رأی شما ثبت شد (تعداد کل آرا: ' + fa(t) + ')';
+  else msg.textContent = 'تعداد کل آرا: ' + fa(t);
+}
+function renderAll() { document.querySelectorAll('[data-poll]').forEach(e => render(e.dataset.poll)); }
+
+async function load() {
+  if (!API) return;
+  try {
+    const r = await fetch(API + '?action=results', { cache: 'no-store' });
+    if (!r.ok) throw 0;
+    data = await r.json();
+    enabled = true;
+  } catch (e) { enabled = false; }
+  renderAll();
+}
+
+document.addEventListener('click', async ev => {
+  const b = ev.target.closest('.btns button');
+  if (!b || !enabled) return;
+  const el = b.closest('[data-poll]'), pid = el.dataset.poll, c = b.dataset.c, prev = mine[pid];
+  if (prev === c) return;
+  const d = data[pid] = data[pid] || { yes: 0, no: 0 };
+  if (prev) d[prev]--;
+  d[c]++; mine[pid] = c; render(pid);
+  try {
+    const r = await fetch(API + '?action=vote', { method: 'POST', headers: { 'content-type': 'text/plain' },
+                                         body: JSON.stringify({ pid, voter, choice: c }) });
+    if (!r.ok) throw 0;
+    try { localStorage.setItem('mine', JSON.stringify(mine)); } catch (e) {}
+  } catch (e) {
+    d[c]--; if (prev) d[prev]++; if (prev) mine[pid] = prev; else delete mine[pid];
+    render(pid); el.querySelector('.msg').textContent = 'ثبت رأی انجام نشد؛ دوباره تلاش کنید.';
+  }
+});
+
+load();
+setInterval(() => { if (!document.hidden) load(); }, 30000);
+</script>
+</body>
+</html>
